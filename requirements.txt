@@ -1,0 +1,5 @@
+requests==2.28.1
+beautifulsoup4==4.14.3
+Telethon==1.40.0
+aiogram==3.17.0
+lxml==6.0.2
