@@ -41,7 +41,7 @@ async def main():
         time.sleep(10)
         headers = {
         'Cookie': f'golden_key={GOLDEN_KEY}',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36',
         'X-Requested-With': 'XMLHttpRequest',
         }
 
@@ -80,3 +80,4 @@ async def main():
 
 if __name__ == "__main__":
     client.loop.run_until_complete(main())
+
